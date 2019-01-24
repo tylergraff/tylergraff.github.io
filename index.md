@@ -5,7 +5,7 @@ This site documents some of my projects, thoughts, and references.
 I maintain it for my own enjoyment and hopefully that of others.
 
 ### What's New
-**[15 Jan 19]** Added [MEP-016 / 4A032 Page](/pages/mechanical/MEP-016/index.md)
+**[15 Jan 19]** Added [MEP-016 / 4A032 Page](/pages/mechanical/MEP-016/index.md)<br>
 **[30 Dec 18]** Updated 78XX Switcher: [Linear Regulator Applications](/pages/electronics/linear-reg-apps.md)  
 
 ### My DIY Project Pages
