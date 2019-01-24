@@ -1,4 +1,6 @@
+
 | [Back to Main Index](../../index.md) | [Back to Electronics Index](./index.md) |
+
 ## Linear Regulators
 Below is a collection of the most common and enduring linear regulator ICs. The commercial-grade temp range part is listed.  
 
