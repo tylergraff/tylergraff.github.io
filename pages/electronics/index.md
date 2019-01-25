@@ -9,4 +9,4 @@
 
 
 ## Applications
- - [Linear Regulator Circuits](./linear-reg-apps.md)
+ - [Linear Regulator Circuits](./linear-reg-circuits.md)
