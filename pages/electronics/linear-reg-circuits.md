@@ -1,6 +1,6 @@
 | [Back to Main Index](../../index.md) | [Back to Electronics Index](./index.md) |
 
-## Linear Regulator Applications
+## Linear Regulator Circuits
 
 Circuits where the primary component is a linear regulator.  
 See my [Linear Regulators](./linear-reg-overview.md) page for a collection of datasheets for the most common parts.
