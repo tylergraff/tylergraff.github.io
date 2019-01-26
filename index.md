@@ -33,6 +33,9 @@ Wolfgang's (DL1DWG) Electronics Projects For Fun blog. Frequent posts.
 * [http://www.kerrywong.com](http://www.kerrywong.com)  
   Test equipment teardowns and DIY test equipment projects.
 
+* [http://www.simonsdialogs.com](http://www.simonsdialogs.com)  
+  Test equipment teardowns and DIY projects.
+
 * [http://www.bigclive.com](http://www.bigclive.com/)<br/>
 Lots of simple, fun, goofy, and unorthodox electronics projects.  
 [bigclivedotcom YouTube Channel](https://www.youtube.com/user/bigclivedotcom/videos) Teardowns and Projects
