@@ -30,6 +30,9 @@ Wolfgang's (DL1DWG) Electronics Projects For Fun blog. Frequent posts.
 * [http://www.cappels.org/dproj/Home.htm](http://www.cappels.org/dproj/Home.htm)  
   Dick Cappels' electronics projects.
 
+* [http://www.kerrywong.com](http://www.kerrywong.com)  
+  Test equipment teardowns and DIY test equipment projects.
+
 * [http://www.bigclive.com](http://www.bigclive.com/)<br/>
 Lots of simple, fun, goofy, and unorthodox electronics projects.  
 [bigclivedotcom YouTube Channel](https://www.youtube.com/user/bigclivedotcom/videos) Teardowns and Projects
