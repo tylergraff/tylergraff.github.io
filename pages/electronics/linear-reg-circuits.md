@@ -32,7 +32,7 @@ lamp is used to pull OUT low when the regulator turns off. A suitable parallel
 resistance must be used if the lamp is replaced by (e.g.) an LED. 
 
 A similar circuit can be spotted on Page 8 of
-[Linear's LT1038](./files/datasheets/LT1038/pages/electronics/files/datasheets/LT1038/LT1038_LinearTech_2000.pdf) datasheet.
+[Linear's LT1038](./files/datasheets/LT1038/LT1038_LinearTech_2000.pdf) datasheet.
 I have traced this circuit back to the LM317L entry in the 1982 National Linear
 Databook. I cannot imagine where it has been used.  
 
