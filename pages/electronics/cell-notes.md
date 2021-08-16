@@ -14,3 +14,7 @@ NiCd:
 NiMH:
 - AA Panasonic Eneloop: [https://eneloop101.com/wp-content/uploads/2017/02/HR-3UTGB.pdf](https://eneloop101.com/wp-content/uploads/2017/02/HR-3UTGB.pdf)
 - AAA Panasonic Eneloop: [https://eneloop101.com/wp-content/uploads/BK-4MCC-AE.pdf](https://eneloop101.com/wp-content/uploads/BK-4MCC-AE.pdf)
+
+
+### More Cells with Datasheets
+[https://www.batteryspace.com/](https://www.batteryspace.com/)
