@@ -5,5 +5,6 @@ Primary (Non-Rechargeable) Cells
 - AAA Energizer Ultimate Lithium: [https://data.energizer.com/pdfs/L92.pdf](https://data.energizer.com/pdfs/L92.pdf)
 
 Secondary (Rechargeable) Cells:
+- AA Panasonic Cadnica (NiCd): [https://www.mouser.com/datasheet/2/315/ACC4000CE28-911446.pdf](https://www.mouser.com/datasheet/2/315/ACC4000CE28-911446.pdf)
 - AA Eneloop (NiMH): [https://eneloop101.com/wp-content/uploads/2017/02/HR-3UTGB.pdf](https://eneloop101.com/wp-content/uploads/2017/02/HR-3UTGB.pdf)
 - AAA Eneloop (NiMH): [https://eneloop101.com/wp-content/uploads/BK-4MCC-AE.pdf](https://eneloop101.com/wp-content/uploads/BK-4MCC-AE.pdf)
