@@ -13,8 +13,11 @@ NiCd:
 
 NiMH:
 - AA Panasonic Eneloop: [https://eneloop101.com/wp-content/uploads/2017/02/HR-3UTGB.pdf](https://eneloop101.com/wp-content/uploads/2017/02/HR-3UTGB.pdf)
+- AA Energizer Recharge: [https://data.energizer.com/PDFs/nh15-1500.pdf](https://data.energizer.com/PDFs/nh15-1500.pdf)
 - AAA Panasonic Eneloop: [https://eneloop101.com/wp-content/uploads/BK-4MCC-AE.pdf](https://eneloop101.com/wp-content/uploads/BK-4MCC-AE.pdf)
 
-
+NiZN:
+- AA Conrad Energy: [https://cdn.sos.sk/productdata/29/72/e34660c7/4aa2500mwh1-6v-bp4.pdf](https://cdn.sos.sk/productdata/29/72/e34660c7/4aa2500mwh1-6v-bp4.pdf)
+- AA Mega-Piles: [https://www.mega-piles.com/docs/pdf/553.pdf](https://www.mega-piles.com/docs/pdf/553.pdf)
 ### More Cells with Datasheets
 [https://www.batteryspace.com/](https://www.batteryspace.com/)
