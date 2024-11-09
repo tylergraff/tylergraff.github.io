@@ -1,11 +1,10 @@
 ---
 layout: default
 ---
-Revision 2024-11-09
+Updated: 2024-11-09
 
 # Tyler Graff  
-| Technical Lead | Atlanta, GA | [linkedin.com/in/tagraff](https://www.linkedin.com/in/tagraff) |
-|---|---|---|
+|  Software Engineering  |  Atlanta, GA  |  [linkedin.com/in/tagraff](https://www.linkedin.com/in/tagraff)  |
 
 ## Summary  
 Hands-on engineering team leader with over 15 years of experience developing high-performance, high-impact software and analytics solutions in multi-disciplinary environments. 7+ years of exerience managing customer-facing teams and projects. Specialized in hardware and software architecture, analytics, systems programming, and Linux/POSIX environments.
