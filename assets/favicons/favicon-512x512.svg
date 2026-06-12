@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns:ns0="http://www.w3.org/2000/svg" ns0:xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="TG favicon"><ns0:rect x="8" y="8" width="496" height="496" rx="96" ry="96" fill="#11110f" />
+  <ns0:g fill="#f5eedc">
+    
+    <ns0:path d="M92 126 H276 L255 179 H191 L118 394 H61 L134 179 H70 Z" />
+
+    
+    <ns0:path fill-rule="evenodd" d="       M307 126 H424 L452 155 L434 207 H379 L388 180 H339 L330 188 L274 339 L283 349 H346 L355 340 L368 300 H331 L350 250 H430 L390 366 L367 395 H237 L207 367 L281 154 Z     " />
+  </ns0:g>
+</svg>
