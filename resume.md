@@ -3,11 +3,17 @@ layout: page
 title: Resume
 ---
 
-**Technical Fellow | Advanced Technology & High-Consequence Systems**
+<div class="resume-hero" markdown="1">
 
-Governed AI Platforms | Defense Technology | Cyber Analytics | Distributed Systems | Embedded Systems
+<p class="resume-name">Tyler Graff</p>
 
-Active DoD Top Secret Clearance | Security+ | B.S./M.S. Electrical Engineering
+<p class="resume-title">Technical Fellow | Advanced Technology & High-Consequence Systems</p>
+
+<p class="resume-tags">Governed AI Platforms | Defense Technology | Cyber Analytics | Distributed Systems | Embedded Systems</p>
+
+<p class="resume-credentials">Active DoD Top Secret Clearance | Security+ | B.S./M.S. Electrical Engineering</p>
+
+</div>
 
 ## Summary
 
@@ -111,23 +117,22 @@ Built and led engineering teams responsible for a cybersecurity analytics platfo
 
 ## Earlier Experience
 
-**Global InfoTek, Inc. — Senior Engineer** — Led Windows-internals reverse-engineering and development in C, C++, and Python; developed Win7 x64 kernel driver routines and system-call hooks for executable process inspection and manipulation; led a 3-FTE team to deliver a $1M contract.
-
-**Ball Aerospace, Inc. — Software Engineer** — Supported prototype airborne IR LIDAR development and field operation; built operator consoles and test systems in C and Ruby; led spacecraft telemetry analysis/reporting software; supported three rounds of field testing and on-orbit commissioning telemetry.
-
-**Cellnet Technology, Inc. — Firmware Engineer** — Prototyped a low-cost, low-power spread-spectrum RF device and developed a programming adapter enabling modern field tools to support legacy deployed hardware.
+- **Global InfoTek, Inc. — Senior Engineer, 2012–2014:** Led Windows-internals reverse-engineering and development in C, C++, and Python; developed Win7 x64 kernel driver routines and system-call hooks; led a 3-FTE team to deliver a $1M contract.
+- **Ball Aerospace, Inc. — Software Engineer, 2009–2012:** Supported prototype airborne IR LIDAR development and field operation; built operator consoles and test systems; led spacecraft telemetry analysis/reporting software; supported field testing and on-orbit commissioning telemetry.
+- **Cellnet Technology, Inc. — Firmware Engineer, 2007–2008:** Prototyped low-cost, low-power spread-spectrum RF hardware and developed a programming adapter for legacy deployed hardware.
 
 ## Education & Certifications
 
-**M.S., Electrical Engineering** — University of Colorado, 2009
-**B.S., Electrical Engineering** — Georgia Institute of Technology, 2006
-**CompTIA Security+** — May 2024
-**Ontologize Palantir AIP & Foundry Foundations** — December 2025
-**FCC Amateur Extra Class License** — 2006
+- **M.S., Electrical Engineering** — University of Colorado, 2009
+- **B.S., Electrical Engineering** — Georgia Institute of Technology, 2006
+- **CompTIA Security+** — May 2024
+- **Ontologize Palantir AIP & Foundry Foundations** — December 2025
+- **FCC Amateur Extra Class License** — 2006
 
 ## Clearance
 
 **Active DoD Top Secret Clearance**
 
 ## Contact
-tagraff@gmail.com
+
+[tagraff@gmail.com](mailto:tagraff@gmail.com)
