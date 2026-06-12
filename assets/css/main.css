@@ -356,8 +356,7 @@ main {
 /* Resume page styling */
 .resume-hero {
     margin-bottom: 1.5rem;
-    padding-bottom: 1.25rem;
-    border-bottom: 1px solid var(--border);
+    padding-bottom: 0;
     line-height: 1.25;
 }
 
