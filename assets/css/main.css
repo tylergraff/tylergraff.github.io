@@ -33,8 +33,6 @@ body {
     background-color: var(--bg);
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    font-size: 18px;
-    line-height: 1.6;
 }
 
 /* Links */
@@ -67,13 +65,12 @@ h1 {
 }
 
 h2 {
-    font-size: 1.2rem;
     font-family: var(--font-mono);
     letter-spacing: 0.035em;
     border-top: 1px solid var(--border);
-    padding-top: 1.5rem;
-    margin-top: 2rem;
-    margin-bottom: 0.75rem;
+    padding-top: 1rem;
+    margin-top: 1.6rem;
+    margin-bottom: 0.6rem;
     text-transform: uppercase;
     font-size: 0.95rem;
     font-weight: 600;
@@ -81,6 +78,8 @@ h2 {
 
 h3 {
     font-size: 1.1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 0.3rem;
 }
 
 h4 {
@@ -93,18 +92,20 @@ h5, h6 {
 
 /* Paragraphs and blocks */
 p {
-    margin-bottom: 0.95rem;
-    line-height: 1.6;
+    margin-top: 0.35rem;
+    margin-bottom: 0.65rem;
+    line-height: 1.38;
 }
 
 ul, ol {
-    margin-bottom: 1rem;
+    margin-top: 0.35rem;
+    margin-bottom: 0.75rem;
     margin-left: 1.5rem;
 }
 
 li {
-    margin-bottom: 0.3rem;
-    line-height: 1.6;
+    margin-bottom: 0.25rem;
+    line-height: 1.4;
 }
 
 blockquote {
@@ -142,6 +143,10 @@ pre code {
 /* Layout structure */
 main {
     padding: 2.5rem 1.25rem 0;
+    font-size: 16px;
+    line-height: 1.38;
+    max-width: 860px;
+    margin: 0 auto;
 }
 
 /* Header */
@@ -210,7 +215,7 @@ main {
 
 .page-header h1 {
     margin-top: 0;
-    margin-bottom: 0.4rem;
+    margin-bottom: 1rem;
 }
 
 .page-meta {
@@ -346,4 +351,81 @@ main {
 
 .note-block li {
     margin-bottom: 0.4rem;
+}
+
+/* Resume page styling */
+.resume-hero {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--border);
+    line-height: 1.25;
+}
+
+.resume-hero h1 {
+    margin-bottom: 1rem;
+}
+
+.resume-hero p {
+    margin: 0 0 0.35rem 0;
+}
+
+.resume-name {
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.resume-title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.resume-tags,
+.resume-credentials {
+    font-size: 0.95rem;
+}
+
+/* Resume section headings */
+.resume-company {
+    margin-top: 1.75rem;
+    margin-bottom: 0.25rem;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.resume-role {
+    margin-bottom: 0.15rem;
+    font-weight: 600;
+}
+
+.resume-dates {
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin-bottom: 0.75rem;
+}
+
+.resume-description {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+/* Resume bullets */
+.resume-bullets {
+    margin-bottom: 1.25rem;
+    margin-left: 1.5rem;
+}
+
+.resume-bullets li {
+    margin-bottom: 0.3rem;
+    line-height: 1.6;
+}
+
+/* Earlier experience items */
+.earlier-experience-item {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+}
+
+.earlier-experience-item strong {
+    font-weight: 700;
 }
