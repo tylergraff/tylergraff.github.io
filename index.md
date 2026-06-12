@@ -5,7 +5,14 @@ title: Tyler Graff
 
 Systems engineer for first-of-kind technical systems.
 
+Ambiguous problem in, working system out.
+{: .tagline }
+
+<div class="intro-block" markdown="1">
+
 I build and lead early-stage systems where software, security, AI, infrastructure, and hardware constraints collide.
+
+</div>
 
 ## Areas of focus
 
