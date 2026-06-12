@@ -41,14 +41,14 @@ Current work focuses on governed AI platforms for defense and federal use cases,
 
 Lead architecture and product ownership for MIDAS, MetroStar’s governed AI platform for structuring repeatable, auditable, high-consequence workflows.
 
-* Re-architected MIDAS from a brittle one-shot AI code-modernization prototype into a modular governed AI workflow platform.
-* Designed the core platform architecture, including plugin-based internal system bus, state-machine AI workflow model, agent execution framework, and deterministic test harness.
+* Re-architected AI code-modernization prototype into a modular governed AI workflow platform.
+* Designed core platform architecture, including plugin-based internal system bus, state-machine AI workflow model, agent execution framework, and deterministic test harness.
 * Built a governed LLM orchestration model in which each workflow state defines human-authored goals, transition criteria, input/output context, permissible next states, and narrowly scoped tools.
 * Created an execution framework that emits comprehensive audit logs of state transitions, context, tool use, and workflow decisions.
-* Positioned MIDAS for use cases beyond modernization, including continuous ATO, RMF-aligned rubric assessment, software artifact review, and controlled technical document evaluation.
-* Architected MIDAS for secure, repeatable operation in IL5 and air-gapped deployment environments.
+* Positioned products for use cases including continuous ATO, RMF-aligned rubric assessment, software artifact review, and controlled technical document evaluation.
+* Architected platforms for secure, repeatable operation in IL5 and air-gapped deployment environments.
 * Established gold-file / snapshot testing strategy that enforces deterministic behavior, encourages modular design, and turns tests into living documentation of platform behavior.
-* Led MIDAS to awardable status on the Tradewinds Solutions Marketplace and DoD Platform One Marketplace.
+* Led products to awardable status on the Tradewinds Solutions Marketplace and DoD Platform One Marketplace.
 
 **Technical Fellow, Defense Business Unit**
 *January 2025 – July 2025*
