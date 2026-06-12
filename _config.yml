@@ -1,0 +1,11 @@
+title: Tyler Graff
+description: Systems engineer for first-of-kind technical systems.
+url: https://tylergraff.github.io
+baseurl: ""
+
+# Jekyll settings
+markdown: kramdown
+permalink: /:title/
+
+# Disable plugins
+plugins: []

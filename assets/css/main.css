@@ -1,0 +1,280 @@
+/* Typography */
+:root {
+    --color-bg: #f5f3f0;
+    --color-text: #1a1a1a;
+    --color-text-secondary: #555;
+    --color-link: #5b7c99;
+    --color-link-visited: #6b5a7a;
+    --color-border: #ddd9d6;
+    
+    --font-serif: Georgia, "Times New Roman", serif;
+    --font-mono: "Menlo", "Monaco", "Courier New", monospace;
+    
+    --max-width: 900px;
+    --content-width: 740px;
+    --spacing-unit: 1.5rem;
+}
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+body {
+    font-family: var(--font-serif);
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Links */
+a {
+    color: var(--color-link);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: var(--color-link-visited);
+}
+
+a:hover {
+    color: var(--color-text);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: var(--spacing-unit);
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    border-top: 1px solid var(--color-border);
+    padding-top: var(--spacing-unit);
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+h5, h6 {
+    font-size: 1rem;
+}
+
+/* Paragraphs and blocks */
+p {
+    margin-bottom: 1rem;
+}
+
+ul, ol {
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+blockquote {
+    border-left: 3px solid var(--color-border);
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: var(--color-text-secondary);
+    font-style: italic;
+}
+
+code {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 0.2em 0.4em;
+    border-radius: 2px;
+}
+
+pre {
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 1rem;
+    overflow-x: auto;
+    margin-bottom: 1rem;
+    border: 1px solid var(--color-border);
+    line-height: 1.4;
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+/* Layout structure */
+main {
+    display: flex;
+    justify-content: center;
+    padding: var(--spacing-unit) 1rem;
+}
+
+/* Header */
+.site-header {
+    background-color: #fff;
+    border-bottom: 1px solid var(--color-border);
+    padding: 1rem;
+    margin-bottom: var(--spacing-unit);
+}
+
+.header-inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.site-title-wrapper {
+    flex-shrink: 0;
+}
+
+.site-title {
+    font-family: var(--font-mono);
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+.site-title:hover {
+    color: var(--color-link);
+}
+
+/* Navigation */
+.site-nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-link {
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid transparent;
+}
+
+.nav-link:hover {
+    color: var(--color-link);
+    border-bottom: 1px solid var(--color-link);
+}
+
+/* Page structure */
+.page {
+    width: 100%;
+    max-width: var(--content-width);
+}
+
+.page-header {
+    margin-bottom: var(--spacing-unit);
+}
+
+.page-header h1 {
+    margin-top: 0;
+}
+
+.page-content {
+    line-height: 1.8;
+}
+
+/* Footer */
+.site-footer {
+    border-top: 1px solid var(--color-border);
+    background-color: #fff;
+    padding: var(--spacing-unit) 1rem;
+    margin-top: var(--spacing-unit);
+}
+
+.footer-inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    :root {
+        font-size: 15px;
+    }
+    
+    .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .site-nav {
+        gap: 1.5rem;
+    }
+    
+    h1 {
+        font-size: 1.75rem;
+    }
+    
+    h2 {
+        font-size: 1.35rem;
+    }
+    
+    h3 {
+        font-size: 1.15rem;
+    }
+    
+    main {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        font-size: 14px;
+    }
+    
+    .site-title {
+        font-size: 1rem;
+    }
+    
+    .nav-link {
+        font-size: 0.85rem;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.25rem;
+    }
+    
+    main {
+        padding: 1rem 0.75rem;
+    }
+}
