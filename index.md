@@ -3,15 +3,15 @@ layout: page
 title: Home
 ---
 
+Practical systems under hard constraints
+{: .positioning-line }
+
 Architecture, prototypes, tradeoffs, and technical risk
 {: .tagline }
 
-{: .positioning-line }
-
-
 <div class="intro-block" markdown="1">
 
-I build and lead early-stage systems where high-performance systems, robust security, and hardware constraints collide.
+I build and lead early-stage systems where software, infrastructure, AI, security, performance, and hardware constraints collide.
 
 </div>
 
