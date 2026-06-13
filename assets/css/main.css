@@ -104,7 +104,7 @@ ul, ol {
 }
 
 li {
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.18rem;
     line-height: 1.4;
 }
 
@@ -158,7 +158,7 @@ main {
 .site-header-inner {
     max-width: var(--container-width);
     margin: 0 auto;
-    padding: 0.75rem 1.25rem;
+    padding: 0.6rem 1.25rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -180,6 +180,7 @@ main {
 
 .site-title:hover {
     color: var(--link);
+    text-decoration: underline;
 }
 
 /* Navigation */
@@ -237,10 +238,9 @@ main {
 
 .intro-block {
     border-left: 2px solid var(--border);
-    padding: 1.25rem 1rem 1.25rem 1.25rem;
-    margin: 1.5rem 0 2rem 0;
+    padding-left: 1.25rem;
+    margin: 1.5rem 0 1.25rem 0;
     line-height: 1.65;
-    background-color: var(--panel);
 }
 
 .intro-block > p {
@@ -324,8 +324,8 @@ main {
     
     .intro-block {
         border-left: 2px solid var(--border);
-        padding: 1rem 0.75rem 1rem 1rem;
-        background-color: var(--panel);
+        padding-left: 1rem;
+        margin-bottom: 1.25rem;
     }
     
     main {

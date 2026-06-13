@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Tyler Graff
+title: Systems engineer for first-of-kind technical systems.
 ---
-
-Systems engineer for first-of-kind technical systems.
 
 Ambiguous problem in, working system out.
 {: .tagline }
