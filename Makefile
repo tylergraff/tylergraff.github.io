@@ -8,10 +8,10 @@ help:
 	@echo "  make install - Install dependencies (Ruby gems)"
 
 serve:
-	jekyll serve --livereload
+	bundle exec jekyll serve --livereload
 
 build:
-	jekyll build
+	bundle exec jekyll build
 
 clean:
 	rm -rf _site/
