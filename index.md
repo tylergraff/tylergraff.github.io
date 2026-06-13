@@ -16,6 +16,7 @@ I build and lead early-stage systems where software, security, AI, infrastructur
 
 ## Areas of focus
 
+- AI-assisted software modernization
 - High-performance network and distributed systems
 - Secure and air-gapped platforms
 - Embedded, RF, and hardware-adjacent software
