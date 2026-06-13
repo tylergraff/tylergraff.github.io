@@ -9,7 +9,7 @@ title: Resume
 
 <p class="resume-title">Technical Fellow | Advanced Technology & High-Consequence Systems</p>
 
-<p class="resume-tags">Governed AI Platforms | Defense Technology | Cyber Analytics | Distributed Systems | Embedded Systems</p>
+<p class="resume-tags">Governed AI Platforms | Defense Technology | Data Analytics | Distributed Systems | Embedded Systems</p>
 
 <p class="resume-credentials">Active DoD Top Secret Clearance | Security+ | B.S./M.S. Electrical Engineering</p>
 
