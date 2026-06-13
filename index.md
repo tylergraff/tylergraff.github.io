@@ -1,7 +1,12 @@
 ---
 layout: page
-title: Systems engineer for first-of-kind technical systems.
+title: Home
 ---
+
+First-of-kind technical systems
+
+AI modernization, secure platforms, high-performance networks, and hardware-adjacent software.
+{: .positioning-line }
 
 Ambiguous problem in, working system out.
 {: .tagline }
