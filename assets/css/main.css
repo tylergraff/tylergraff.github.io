@@ -160,9 +160,9 @@ main {
     margin: 0 auto;
     padding: 0.6rem 1.25rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .site-title-wrapper {
@@ -233,6 +233,14 @@ main {
     color: var(--muted);
     margin-bottom: 1rem;
     letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+.positioning-line {
+    font-size: 0.95rem;
+    color: var(--muted);
+    margin-bottom: 1.25rem;
+    margin-top: -0.85rem;
     line-height: 1.5;
 }
 
