@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+{% if page.resume_name %}
+<div class="resume-hero">
+  <p class="resume-name">{{ page.resume_name }}</p>
+  <p class="resume-title">{{ page.resume_title }}</p>
+  {% if page.resume_tags %}<p class="resume-tags">{{ page.resume_tags }}</p>{% endif %}
+  {% if page.resume_credentials %}<p class="resume-credentials">{{ page.resume_credentials }}</p>{% endif %}
+</div>
+{% endif %}
+
+<div class="resume-page">
+{{ content }}
+</div>

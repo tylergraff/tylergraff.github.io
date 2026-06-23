@@ -4,13 +4,9 @@ title: Home
 ---
 
 Practical systems under hard constraints
-{: .positioning-line }
-
-<div class="intro-block" markdown="1">
+{: .intro-block }
 
 I build and lead early-stage systems where AI, software architecture, security, performance, and hard constraints collide.
-
-</div>
 
 ## Areas of focus
 

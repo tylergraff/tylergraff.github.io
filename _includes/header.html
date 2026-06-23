@@ -2,9 +2,9 @@
     <div class="site-header-inner">
         <a href="/" class="site-title">Tyler Graff</a>
         <nav class="site-nav">
-            <a href="/" class="nav-link">Home</a>
-            <a href="/about/" class="nav-link">About</a>
-            <a href="/resume/" class="nav-link">Resume</a>
+            <a href="/" class="nav-link{% if page.url == '/' %} active{% endif %}">Home</a>
+            <a href="/about/" class="nav-link{% if page.url contains 'about' %} active{% endif %}">About</a>
+            <a href="/resume/" class="nav-link{% if page.url contains 'resume' %} active{% endif %}">Resume</a>
         </nav>
     </div>
 </header>
