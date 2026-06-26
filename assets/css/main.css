@@ -33,6 +33,9 @@ body {
     background-color: var(--bg);
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Links */
@@ -142,10 +145,12 @@ pre code {
 
 /* Layout structure */
 main {
+    flex: 1;
     padding: 1.75rem 1.25rem 0;
     font-size: 16px;
     line-height: 1.38;
     max-width: 760px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -265,6 +270,14 @@ p.intro-block {
     margin-bottom: 0.75rem;
 }
 
+.site-tagline {
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.75rem 0;
+    color: var(--text);
+}
+
 .page-content {
     line-height: 1.6;
 }
@@ -273,8 +286,8 @@ p.intro-block {
 .site-footer {
     border-top: 1px solid var(--border);
     background-color: #fff;
-    padding: 1.25rem 1.25rem;
-    margin-top: 2.5rem;
+    padding: 0.2rem 1.25rem;
+    margin-top: auto;
 }
 
 .footer-inner {
@@ -284,6 +297,7 @@ p.intro-block {
     font-size: 0.8rem;
     color: var(--muted);
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 /* Responsive design */
@@ -343,6 +357,10 @@ p.intro-block {
         border-left: 2px solid var(--border);
         padding-left: 1rem;
         margin-bottom: 1.25rem;
+    }
+
+    .site-tagline {
+        font-size: 1.3rem;
     }
     
     main {
