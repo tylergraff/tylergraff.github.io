@@ -3,15 +3,15 @@ layout: page
 title: Home
 ---
 
-Practical systems under hard constraints
-{: .intro-block }
+# Practical Systems Under Hard Constraints
+{: .site-tagline }
 
-I build and lead early-stage systems where AI, software architecture, security, performance, and hard constraints collide.
+I build and lead early-stage systems where AI, software architecture, security, performance, and hard realities collide.
 
 ## Areas of focus
 
 - High-performance network and distributed systems
 - Secure and air-gapped platforms
-- AI-assisted software modernization
+- Governed AI workflow systems
 - Embedded, RF, and hardware-adjacent software
 - Practical prototypes and technical leadership
