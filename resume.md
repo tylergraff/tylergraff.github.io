@@ -31,6 +31,7 @@ Past work includes high-throughput cyber analytics, 10Gbps packet-processing sys
 *January 2025 - Present*
 
 Led architecture and product ownership for Midas, MetroStar's governed AI platform for structured, repeatable, auditable workflows in defense and federal environments.
+* Designed AI solution architecture across CDAO JATIC, CMPMI, and internal initiatives; developed the technical solution approach for C2SET and supported proposal authorship via the GCCH Enclave.
 * Led 7 FTE team to transform a prototype AI system into a modular workflow platform resulting in $2M in business across multiple pilot customers.
 * Designed core architecture: plugin-based internal system bus, state-machine LLM orchestration, scoped agent/tool execution, deterministic test harness, and audit-oriented execution model.
 * Defined reusable workflow patterns for RMF-aligned assessment, continuous ATO support, software artifact review, and controlled technical-document evaluation.
@@ -38,15 +39,14 @@ Led architecture and product ownership for Midas, MetroStar's governed AI platfo
 * Established gold-file/snapshot testing strategy to enforce deterministic behavior, expose regressions, and document platform behavior.
 * Led products to awardable status on Tradewinds Solutions Marketplace and DoD Platform One Marketplace.
 
-**Senior Engineer, Defense Business Unit**
+**Senior Software Engineer / Technical Lead, CDAO JATIC Program**
 *January 2024 - January 2025*
 
-Supported AI/ML technical strategy, solution architecture, proposal development, and practical AI adoption across a defense portfolio.
+Owned technical roadmap and execution for a 10+ engineer effort to adapt, deploy, and maintain the open-source Nebari platform for CDAO, including ATO preparation at DoD IL5.
 
-* Supported $100M+ in federal and defense pursuits, from stage-zero technical feasibility and market analysis through solution architecture, pricing assumptions, and proposal submission.
-* Interviewed technical customers, evaluated deal feasibility, conducted technical market research, interpreted RFI and industry-day inputs, and shaped solution strategy.
-* Developed solution architectures, implementation plans, proposal technical volumes, RFI responses, white papers, demo strategies, and team structures.
-* Helped position MetroStar as a practical AI modernization and secure AI platform partner by grounding capture narratives in implementable system architectures.
+* Led Program Increment and Sprint planning; directed the technical effort to deploy the platform into a cloud-based air-gapped enclave.
+* Led software security and ATO effort: defined and executed tasking to generate SBOM, identify and resolve CVE findings, and produce functional diagrams describing the security surface area.
+* Enabled promotion of team members from outside collaborators to full members of the upstream open-source community.
 
 ### Voreas Laboratories, Inc.
 
@@ -89,6 +89,7 @@ Built and led engineering teams responsible for a custom cybersecurity analytics
 - **Global InfoTek, Inc. - Senior Engineer, 2012-2014:** Led Windows-internals reverse-engineering and development in C, C++, and Python; developed Win7 x64 kernel driver routines and system-call hooks; led a 3-FTE team to deliver a $1M contract.
 - **Ball Aerospace, Inc. - Software Engineer, 2009-2012:** Supported prototype airborne IR LIDAR development and field operation; built operator consoles and test systems; led spacecraft telemetry analysis/reporting software; supported field testing and on-orbit commissioning telemetry.
 - **Cellnet Technology, Inc. - Firmware Engineer, 2007-2008:** Prototyped low-cost, low-power spread-spectrum RF hardware and developed a programming adapter for legacy deployed hardware. Awarded US Patent #8,111,063 (Magnetic Rotation Sensing) for an electro-mechanical hardware implementation and related software algorithm to detect and minimize hardware failures over device lifetime.
+- **National Instruments - Firmware Development Engineering Intern, 2006:** Developed firmware in C and VHDL for an embedded USB data acquisition device; built a VHDL test bench achieving 100% code coverage and verification of external signal timing; served as a technical representative for Georgia Tech.
 
 ## Education & Certifications
 
