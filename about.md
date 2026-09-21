@@ -7,15 +7,6 @@ I am a systems engineer and technical leader focused on practical systems under 
 
 My work sits at the boundary between software architecture, AI modernization, secure infrastructure, high-performance networking, embedded systems, RF, and hardware-adjacent software. I am most useful in early, messy phases of technical work: shaping the architecture, building prototypes, identifying tradeoffs, reducing technical risk, and helping teams converge on something that can actually be built and operated.
 
-## What I work on
-
-- AI-assisted software modernization
-- Secure and air-gapped platforms
-- High-performance network and distributed systems
-- Cybersecurity analytics and operational tooling
-- Embedded, RF, and hardware-adjacent systems
-- Practical prototypes, technical rescue, and architecture under uncertainty
-
 ## How I work
 
 I care about simple architectures, measurable progress, and honest tradeoffs. I prefer working prototypes over long speculative designs, but I also care about whether a prototype teaches the right lesson and can become a maintainable system.
@@ -28,11 +19,11 @@ My background includes AI modernization, secure AI/ML platform deployment, distr
 
 I hold B.S. and M.S. degrees in Electrical Engineering and an Amateur Extra radio license.
 
-## What I am interested in
+## What I am looking for
 
-I am especially interested in work involving:
+I am especially drawn to work involving:
 
-- Technical uncertainty
+- Technical uncertainty that hasn't been de-risked yet
 - Constrained or secure environments
 - Prototype-to-production transitions
 - Hardware/software boundary problems

@@ -16,3 +16,8 @@ I define, lead, build, and support early-stage fieldable technical systems where
 - High-performance network and distributed systems
 - Embedded, RF, and hardware-adjacent software
 - Prototypes, turn-arounds, and technical leadership
+
+## Contact
+
+[tagraff@gmail.com](mailto:tagraff@gmail.com)  
+[linkedin.com/in/tagraff](https://www.linkedin.com/in/tagraff)
