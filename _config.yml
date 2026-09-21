@@ -7,5 +7,16 @@ baseurl: ""
 markdown: kramdown
 permalink: /:title/
 
+# Force ASCII output: keep quotes straight and typographic symbols as plain
+# ASCII sequences instead of Unicode dashes/ellipses.
+kramdown:
+  smart_quotes: [39, 39, 34, 34]
+  typographic_symbols:
+    mdash: "--"
+    ndash: "-"
+    hellip: "..."
+    laquo: "<<"
+    raquo: ">>"
+
 # Disable plugins
 plugins: []

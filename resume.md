@@ -28,9 +28,9 @@ Past work includes high-throughput cyber analytics, 10Gbps packet-processing sys
 ### MetroStar Systems, Inc.
 
 **Technical Fellow and AI Product Owner**
-*January 2025 – Present*
+*January 2025 - Present*
 
-Led architecture and product ownership for Midas, MetroStar’s governed AI platform for structured, repeatable, auditable workflows in defense and federal environments.
+Led architecture and product ownership for Midas, MetroStar's governed AI platform for structured, repeatable, auditable workflows in defense and federal environments.
 * Led 7 FTE team to transform a prototype AI system into a modular workflow platform resulting in $2M in business across multiple pilot customers.
 * Designed core architecture: plugin-based internal system bus, state-machine LLM orchestration, scoped agent/tool execution, deterministic test harness, and audit-oriented execution model.
 * Defined reusable workflow patterns for RMF-aligned assessment, continuous ATO support, software artifact review, and controlled technical-document evaluation.
@@ -39,7 +39,7 @@ Led architecture and product ownership for Midas, MetroStar’s governed AI plat
 * Led products to awardable status on Tradewinds Solutions Marketplace and DoD Platform One Marketplace.
 
 **Senior Engineer, Defense Business Unit**
-*January 2024 – January 2025*
+*January 2024 - January 2025*
 
 Supported AI/ML technical strategy, solution architecture, proposal development, and practical AI adoption across a defense portfolio.
 
@@ -51,7 +51,7 @@ Supported AI/ML technical strategy, solution architecture, proposal development,
 ### Voreas Laboratories, Inc.
 
 **Director / Engineering Manager, Systems Engineering**
-*February 2018 – February 2023*
+*February 2018 - February 2023*
 
 Built and led engineering teams responsible for a custom cybersecurity analytics platform across AWS, Azure, and on-prem customer deployments.
 
@@ -64,9 +64,9 @@ Built and led engineering teams responsible for a custom cybersecurity analytics
 ### Pindrop Security, Inc.
 
 **Engineering Manager, Software Tooling**
-*July 2016 – February 2018*
+*July 2016 - February 2018*
 
-* Founded and led a 6-FTE tooling team supporting Pindrop’s flagship fraud-detection platform.
+* Founded and led a 6-FTE tooling team supporting Pindrop's flagship fraud-detection platform.
 * Led custom 10Gbps VoIP traffic-simulation effort to quantify performance risks before customer deployment.
 * Reduced release and deployment risk by executing build-system redesign that increased build frequency from quarterly to daily.
 * Automated customer-facing demo systems in partnership with the CEO and Sales organization, reducing demo lead time from days to hours.
@@ -75,7 +75,7 @@ Built and led engineering teams responsible for a custom cybersecurity analytics
 ### Damballa, Inc.
 
 **Staff Engineer, Sensor Team**
-*February 2014 – June 2016*
+*February 2014 - June 2016*
 
 * Recruited to increase cybersecurity platform traffic inspection capability from 1Gbps to 10Gbps.
 * Led a 3-FTE team to implement and deploy 10Gbps inspection capability on time.
@@ -85,10 +85,10 @@ Built and led engineering teams responsible for a custom cybersecurity analytics
 ## Earlier Experience
 
 - **MapLarge, Inc. - Director, Program Management, 2023:** Led customer-facing maintenance and upgrade of a scalable geospatial data platform in an operational DoD environment; aligned custom analytics work with reusable platform capabilities under staffing and budget constraints.
-- **Prolaag LLC - Director, Hardware, Part-Time, 2013–2019:** Designed custom low-power security hardware for a Layer 3 VPN device, including multiprocessor microcontroller architecture, electrical/mechanical/thermal design, and design-for-manufacturing. Developed avalanche-breakdown true-random-number-generator circuitry and signal-processing algorithms that passed Diehard statistical testing without software post-processing.
-- **Global InfoTek, Inc. - Senior Engineer, 2012–2014:** Led Windows-internals reverse-engineering and development in C, C++, and Python; developed Win7 x64 kernel driver routines and system-call hooks; led a 3-FTE team to deliver a $1M contract.
-- **Ball Aerospace, Inc. - Software Engineer, 2009–2012:** Supported prototype airborne IR LIDAR development and field operation; built operator consoles and test systems; led spacecraft telemetry analysis/reporting software; supported field testing and on-orbit commissioning telemetry.
-- **Cellnet Technology, Inc. - Firmware Engineer, 2007–2008:** Prototyped low-cost, low-power spread-spectrum RF hardware and developed a programming adapter for legacy deployed hardware.
+- **Prolaag LLC - Director, Hardware, Part-Time, 2013-2019:** Designed custom low-power security hardware for a Layer 3 VPN device, including multiprocessor microcontroller architecture, electrical/mechanical/thermal design, and design-for-manufacturing. Developed avalanche-breakdown true-random-number-generator circuitry and signal-processing algorithms that passed Diehard statistical testing without software post-processing.
+- **Global InfoTek, Inc. - Senior Engineer, 2012-2014:** Led Windows-internals reverse-engineering and development in C, C++, and Python; developed Win7 x64 kernel driver routines and system-call hooks; led a 3-FTE team to deliver a $1M contract.
+- **Ball Aerospace, Inc. - Software Engineer, 2009-2012:** Supported prototype airborne IR LIDAR development and field operation; built operator consoles and test systems; led spacecraft telemetry analysis/reporting software; supported field testing and on-orbit commissioning telemetry.
+- **Cellnet Technology, Inc. - Firmware Engineer, 2007-2008:** Prototyped low-cost, low-power spread-spectrum RF hardware and developed a programming adapter for legacy deployed hardware.
 
 ## Education & Certifications
 

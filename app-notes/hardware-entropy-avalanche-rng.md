@@ -39,7 +39,7 @@ The system operates in a three-phase cycle:
 
 The storage capacitor is sized so that bias-point droop during the collection phase is minimal. Collection duty cycle is approximately 90%, with the remaining 10% consumed by the boost charge and settle phases.
 
-The op-amp's noise contribution was characterized in-situ by measuring output jitter at mid-range while running an active VPN session. The result was ±1 LSB measurement floor. The LSB is accordingly excluded from entropy collection.
+The op-amp's noise contribution was characterized in-situ by measuring output jitter at mid-range while running an active VPN session. The result was +/-1 LSB measurement floor. The LSB is accordingly excluded from entropy collection.
 
 The entire cycle is open-loop and time-based to eliminate the complexity and associated failure modes that closed-loop control would introduce in a security-critical path.
 
@@ -66,15 +66,15 @@ The general principle below (mapping equiprobable input symbols to output codes)
 
 The classic Von Neumann debiaser examines pairs of bits:
 ```
-01 → output 0
-10 → output 1
-00 and 11 → discard
+01 -> output 0
+10 -> output 1
+00 and 11 -> discard
 ```
 It produces unbiased output from a source with unknown but fixed bias, at the cost of throughput. But it only corrects first-order bias and cannot address the intra-sample correlation produced by SAR DNL errors.
 
 The implementation targets the failure mechanism directly rather than relying on statistical characterization from a calibration corpus. From each 10-bit sample:
 
-1. **Discard the LSB**, dominated by op-amp noise floor (±1 LSB, measured in-situ).
+1. **Discard the LSB**, dominated by op-amp noise floor (+/-1 LSB, measured in-situ).
 2. **Discard the MSB**, affected by gain-stage range scaling imperfections.
 3. **Examine the interior 8 bits for monotonic tails.** If the sample terminates in a run of identical bits (the signature of SAR convergence failure from comparator metastability), the run is truncated. The remaining prefix bits, resolved before the pathological convergence, are retained as valid entropy.
 4. **Output the retained bits.** $k$ usable prefix bits contribute $k$ bits of output. Samples with longer monotonic tails contribute fewer bits, and vice versa.
@@ -87,7 +87,7 @@ Output entropy is accumulated into blocks of approximately 1 KB. Each block unde
 
 This produces the key system property: **graceful degradation under fault**. An operator monitoring the device sees reduced production rate as the first sign of hardware degradation. As the noise source degrades, more samples exhibit longer monotonic tails, and throughput drops accordingly. If it fails entirely, output ceases. *Contrast this with deterministic PRNG conditioning where a dead noise source still produces full-rate but deterministic output.* The system is designed so that failure looks like failure.
 
-The combined system produced output that passed the full Diehard statistical test battery across 10 engineering samples without deterministic post-processing, at 0°C, 25°C, and 45°C ambient. The entropy is white at the point of extraction, not whitened after the fact.
+The combined system produced output that passed the full Diehard statistical test battery across 10 engineering samples without deterministic post-processing, at 0 degC, 25 degC, and 45 degC ambient. The entropy is white at the point of extraction, not whitened after the fact.
 
 ## Application: One-Time Pad for Hardware VPN
 
