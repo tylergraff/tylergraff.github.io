@@ -427,6 +427,14 @@ p.intro-block {
     font-size: 0.95rem;
 }
 
+.resume-contact {
+    font-size: 0.95rem;
+}
+
+.resume-contact a {
+    color: inherit;
+}
+
 /* Resume section headings */
 .resume-company {
     margin-top: 1.75rem;

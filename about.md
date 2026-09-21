@@ -41,4 +41,5 @@ I am especially interested in work involving:
 
 ## Contact
 
-tagraff@gmail.com
+[tagraff@gmail.com](mailto:tagraff@gmail.com)  
+[linkedin.com/in/tagraff](https://www.linkedin.com/in/tagraff)

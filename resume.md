@@ -3,14 +3,17 @@ layout: resume
 title: Resume
 resume_name: Tyler Graff
 resume_title: Technical Fellow | Governed AI, Cyber Analytics, and Distributed Systems
-resume_credentials: "DoD Top Secret Clearance | Security+ | B.S. & M.S. Electrical Engineering"
+resume_contact: '<a href="https://www.linkedin.com/in/tagraff/">linkedin.com/in/tagraff/</a> | <a href="mailto:tagraff@gmail.com">tagraff@gmail.com</a>'
+resume_credentials: "DoD TS/SCI CI Poly | Security+ | B.S. & M.S. Electrical Engineering"
 ---
 
 ## Summary
 
-Hands-on, customer-facing Technical Fellow and systems architect with 20 years of experience building fieldable AI, cyber analytics, distributed systems, embedded systems, and defense technology.
+Hands-on customer-facing Technical Fellow and systems architect with 20+ years of experience building fieldable systems across cyber, distributed systems, embedded systems, defense technology, and artificial intelligence disciplines.
 
-Current work centers on architecting governed AI platforms for defense use cases, including state-machine-constrained LLM workflows, scoped tool execution, deterministic testing, comprehensive audit logging, and secure IL5 and air-gapped deployment models. Background includes high-throughput cyber analytics, 10Gbps packet-processing systems, embedded hardware, RF prototyping, and reverse engineering.
+Current work centers on architecting governed AI platforms for defense use cases, including state-machine-constrained LLM workflows, scoped tool execution, deterministic testing, comprehensive audit logging, and air-gapped deployment models.
+
+Past work includes high-throughput cyber analytics, 10Gbps packet-processing systems, embedded hardware, RF prototyping, and reverse engineering.
 
 ## Core Strengths
 * Governed AI platforms, constrained LLM workflows, auditability, and secure deployment models
@@ -28,7 +31,7 @@ Current work centers on architecting governed AI platforms for defense use cases
 *January 2025 – Present*
 
 Led architecture and product ownership for Midas, MetroStar’s governed AI platform for structured, repeatable, auditable workflows in defense and federal environments.
-* Led 5-7 FTE team to transform a prototype AI system into a modular governed workflow platform.
+* Led 7 FTE team to transform a prototype AI system into a modular workflow platform resulting in $2M in business across multiple pilot customers.
 * Designed core architecture: plugin-based internal system bus, state-machine LLM orchestration, scoped agent/tool execution, deterministic test harness, and audit-oriented execution model.
 * Defined reusable workflow patterns for RMF-aligned assessment, continuous ATO support, software artifact review, and controlled technical-document evaluation.
 * Architected deployment model for secure IL5 and air-gapped environments.
@@ -81,20 +84,17 @@ Built and led engineering teams responsible for a custom cybersecurity analytics
 
 ## Earlier Experience
 
-- **MapLarge, Inc. -- Director, Program Management, 2023:** Led customer-facing maintenance and upgrade of a scalable geospatial data platform in an operational DoD environment; aligned custom analytics work with reusable platform capabilities under staffing and budget constraints.
-- **Prolaag LLC -- Director, Hardware, Part-Time, 2013–2019:** Designed custom low-power security hardware for a Layer 3 VPN device, including multiprocessor microcontroller architecture, electrical/mechanical/thermal design, and design-for-manufacturing. Developed avalanche-breakdown true-random-number-generator circuitry and signal-processing algorithms that passed Diehard statistical testing without software post-processing.
-- **Global InfoTek, Inc. -- Senior Engineer, 2012–2014:** Led Windows-internals reverse-engineering and development in C, C++, and Python; developed Win7 x64 kernel driver routines and system-call hooks; led a 3-FTE team to deliver a $1M contract.
-- **Ball Aerospace, Inc. -- Software Engineer, 2009–2012:** Supported prototype airborne IR LIDAR development and field operation; built operator consoles and test systems; led spacecraft telemetry analysis/reporting software; supported field testing and on-orbit commissioning telemetry.
-- **Cellnet Technology, Inc. -- Firmware Engineer, 2007–2008:** Prototyped low-cost, low-power spread-spectrum RF hardware and developed a programming adapter for legacy deployed hardware.
+- **MapLarge, Inc. - Director, Program Management, 2023:** Led customer-facing maintenance and upgrade of a scalable geospatial data platform in an operational DoD environment; aligned custom analytics work with reusable platform capabilities under staffing and budget constraints.
+- **Prolaag LLC - Director, Hardware, Part-Time, 2013–2019:** Designed custom low-power security hardware for a Layer 3 VPN device, including multiprocessor microcontroller architecture, electrical/mechanical/thermal design, and design-for-manufacturing. Developed avalanche-breakdown true-random-number-generator circuitry and signal-processing algorithms that passed Diehard statistical testing without software post-processing.
+- **Global InfoTek, Inc. - Senior Engineer, 2012–2014:** Led Windows-internals reverse-engineering and development in C, C++, and Python; developed Win7 x64 kernel driver routines and system-call hooks; led a 3-FTE team to deliver a $1M contract.
+- **Ball Aerospace, Inc. - Software Engineer, 2009–2012:** Supported prototype airborne IR LIDAR development and field operation; built operator consoles and test systems; led spacecraft telemetry analysis/reporting software; supported field testing and on-orbit commissioning telemetry.
+- **Cellnet Technology, Inc. - Firmware Engineer, 2007–2008:** Prototyped low-cost, low-power spread-spectrum RF hardware and developed a programming adapter for legacy deployed hardware.
 
 ## Education & Certifications
 
-- **M.S., Electrical Engineering** -- University of Colorado, 2009
-- **B.S., Electrical Engineering** -- Georgia Institute of Technology, 2006
-- **Ontologize: Palantir AIP & Foundry Foundations** -- December 2025
-- **CompTIA Security+** -- May 2024
-- **FCC Amateur Extra Class License** -- 2006
+- **M.S., Electrical Engineering** - University of Colorado, 2009
+- **B.S., Electrical Engineering** - Georgia Institute of Technology, 2006
+- **Ontologize: Palantir AIP & Foundry Foundations** - December 2025
+- **CompTIA Security+** - May 2024
+- **FCC Amateur Extra Class License** - 2006
 
-## Contact
-
-[tagraff@gmail.com](mailto:tagraff@gmail.com)
