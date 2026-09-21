@@ -88,7 +88,7 @@ Built and led engineering teams responsible for a custom cybersecurity analytics
 - **Prolaag LLC - Director, Hardware, Part-Time, 2013-2019:** Designed custom low-power security hardware for a Layer 3 VPN device, including multiprocessor microcontroller architecture, electrical/mechanical/thermal design, and design-for-manufacturing. Developed avalanche-breakdown true-random-number-generator circuitry and signal-processing algorithms that passed Diehard statistical testing without software post-processing.
 - **Global InfoTek, Inc. - Senior Engineer, 2012-2014:** Led Windows-internals reverse-engineering and development in C, C++, and Python; developed Win7 x64 kernel driver routines and system-call hooks; led a 3-FTE team to deliver a $1M contract.
 - **Ball Aerospace, Inc. - Software Engineer, 2009-2012:** Supported prototype airborne IR LIDAR development and field operation; built operator consoles and test systems; led spacecraft telemetry analysis/reporting software; supported field testing and on-orbit commissioning telemetry.
-- **Cellnet Technology, Inc. - Firmware Engineer, 2007-2008:** Prototyped low-cost, low-power spread-spectrum RF hardware and developed a programming adapter for legacy deployed hardware.
+- **Cellnet Technology, Inc. - Firmware Engineer, 2007-2008:** Prototyped low-cost, low-power spread-spectrum RF hardware and developed a programming adapter for legacy deployed hardware. Awarded US Patent #8,111,063 (Magnetic Rotation Sensing) for an electro-mechanical hardware implementation and related software algorithm to detect and minimize hardware failures over device lifetime.
 
 ## Education & Certifications
 
@@ -97,4 +97,5 @@ Built and led engineering teams responsible for a custom cybersecurity analytics
 - **Ontologize: Palantir AIP & Foundry Foundations** - December 2025
 - **CompTIA Security+** - May 2024
 - **FCC Amateur Extra Class License** - 2006
+- **US Patent #8,111,063** - Magnetic Rotation Sensing, 2012
 
