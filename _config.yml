@@ -18,5 +18,8 @@ kramdown:
     laquo: "<<"
     raquo: ">>"
 
-# Disable plugins
-plugins: []
+# Plugins limited to search-engine/subscriber discoverability
+# (RSS feed + sitemap.xml) -- nothing else.
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
