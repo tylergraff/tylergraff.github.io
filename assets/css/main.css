@@ -271,8 +271,8 @@ p.intro-block {
 
 .site-tagline {
     font-family: var(--font-mono);
-    font-size: 1.32rem;
-    font-weight: 700;
+    font-size: 1.15rem;
+    font-weight: 600;
     letter-spacing: 0;
     margin: 0 0 0.75rem 0;
     color: var(--text);
