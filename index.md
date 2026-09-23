@@ -8,6 +8,8 @@ title: Home
 
 I define, lead, build, and support early-stage fieldable technical systems where AI, software architecture, security, performance, and hard realities intersect.
 
+DoD TS/SCI CI Poly | US Patent [#8,111,063](https://patents.google.com/patent/US8111063B2/en) (Magnetic Rotation Sensing)
+
 ## Areas of focus
 
 - Practical applications of AI
