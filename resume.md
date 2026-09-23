@@ -7,8 +7,6 @@ resume_contact: '<a href="https://www.linkedin.com/in/tagraff/">linkedin.com/in/
 resume_credentials: "DoD TS/SCI CI Poly | Security+ | B.S. & M.S. Electrical Engineering"
 ---
 
-<p class="no-print"><a href="/assets/resume/Tyler-Graff-Resume.pdf">Download PDF</a></p>
-
 ## Summary
 
 Hands-on customer-facing Technical Fellow and systems architect with 20+ years of experience building fieldable systems across cyber, distributed systems, embedded systems, defense technology, and artificial intelligence disciplines.

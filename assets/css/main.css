@@ -435,6 +435,14 @@ p.intro-block {
     color: inherit;
 }
 
+.resume-download {
+    font-size: 0.9rem;
+}
+
+.resume-hero .resume-download {
+    margin-top: 0.5rem;
+}
+
 /* Resume section headings */
 .resume-company {
     margin-top: 1.75rem;
