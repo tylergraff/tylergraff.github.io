@@ -1,14 +1,17 @@
 SHELL := /bin/bash
 
-.PHONY: serve build clean install help test lint-html check-ascii
+.PHONY: serve build clean install help test lint-html check-ascii resume-pdf
+
+RESUME_PDF := assets/resume/Tyler-Graff-Resume.pdf
 
 help:
 	@echo "Available targets:"
-	@echo "  make serve   - Serve the site locally at http://localhost:4000"
-	@echo "  make build   - Build the site to _site/"
-	@echo "  make clean   - Remove the generated _site/ directory"
-	@echo "  make install - Install dependencies (Ruby gems)"
-	@echo "  make test    - Run lint/quality checks (HTML validity, ASCII-only content)"
+	@echo "  make serve       - Serve the site locally at http://localhost:4000"
+	@echo "  make build       - Build the site to _site/"
+	@echo "  make clean       - Remove the generated _site/ directory"
+	@echo "  make install     - Install dependencies (Ruby gems)"
+	@echo "  make test        - Run lint/quality checks (HTML validity, ASCII-only content)"
+	@echo "  make resume-pdf  - Regenerate $(RESUME_PDF) from the live resume page"
 
 serve:
 	bundle exec jekyll serve --livereload
@@ -49,5 +52,24 @@ check-ascii: build
 
 test: lint-html check-ascii
 	@echo "All checks passed."
+
+# Regenerates the downloadable resume PDF from the live resume page: serves
+# the built _site over HTTP (so absolute /assets/... paths resolve, unlike
+# file://), prints it with headless Chrome, then strips all metadata
+# (title, producer, timestamps, converting user-agent) via qpdf's
+# empty-document rebuild trick.
+resume-pdf: build
+	@python3 -m http.server 8123 --bind 127.0.0.1 --directory _site &>/tmp/resume-pdf-server.log & \
+	server_pid=$$!; \
+	trap 'kill $$server_pid 2>/dev/null' EXIT; \
+	for i in $$(seq 1 20); do \
+		python3 -c "import socket; socket.create_connection(('127.0.0.1', 8123), 0.2).close()" 2>/dev/null && break; \
+		sleep 0.2; \
+	done; \
+	google-chrome --headless --disable-gpu --no-sandbox --no-pdf-header-footer \
+		--print-to-pdf=/tmp/resume-raw.pdf "http://127.0.0.1:8123/resume/"; \
+	qpdf --empty --pages /tmp/resume-raw.pdf 1-z -- "$(RESUME_PDF)"; \
+	rm -f /tmp/resume-raw.pdf
+	@echo "Wrote $(RESUME_PDF)"
 
 .DEFAULT_GOAL := help
