@@ -93,7 +93,7 @@ Built and led engineering teams responsible for a custom cybersecurity analytics
 - **Cellnet Technology, Inc. - Firmware Engineering Intern, 2007-2008:** Prototyped low-cost, low-power spread-spectrum RF hardware and developed a programming adapter for legacy deployed hardware. Awarded US Patent #8,111,063 (Magnetic Rotation Sensing) for an electro-mechanical hardware implementation and related software algorithm to detect and minimize hardware failures over device lifetime.
 - **National Instruments - Firmware Development Engineering Intern, 2006:** Developed firmware in C and VHDL for an embedded USB data acquisition device; built a VHDL test bench achieving 100% code coverage and verification of external signal timing; served as a technical representative for Georgia Tech.
 
-## Education & Certifications
+## Credentials
 
 - **M.S., Electrical Engineering** - University of Colorado, 2009
 - **B.S., Electrical Engineering** - Georgia Institute of Technology, 2006
