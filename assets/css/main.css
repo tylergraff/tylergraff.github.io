@@ -480,3 +480,13 @@ p.intro-block {
 .earlier-experience-item strong {
     font-weight: 700;
 }
+
+/* Print output (used to generate the downloadable resume PDF): drop site
+   chrome that has no meaning outside the browser. */
+@media print {
+    .site-header,
+    .site-footer,
+    .no-print {
+        display: none;
+    }
+}
