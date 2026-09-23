@@ -482,11 +482,16 @@ p.intro-block {
 }
 
 /* Print output (used to generate the downloadable resume PDF): drop site
-   chrome that has no meaning outside the browser. */
+   chrome that has no meaning outside the browser, and print on plain white
+   instead of the site's off-white background. */
 @media print {
     .site-header,
     .site-footer,
     .no-print {
         display: none;
+    }
+
+    body {
+        background-color: #fff;
     }
 }
