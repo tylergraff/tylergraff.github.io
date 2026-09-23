@@ -3,13 +3,15 @@ layout: page
 title: About
 ---
 
+## About Me
+
 I am a systems engineer and technical leader focused on practical systems under hard constraints.
 
 My work sits at the boundary between software architecture, AI modernization, secure infrastructure, high-performance networking, embedded systems, RF, and hardware-adjacent software. I am most useful in early, messy phases of technical work: shaping the architecture, building prototypes, identifying tradeoffs, reducing technical risk, and helping teams converge on something that can actually be built and operated.
 
 ## How I work
 
-I care about simple architectures, measurable progress, and honest tradeoffs. I prefer working prototypes over long speculative designs, but I also care about whether a prototype teaches the right lesson and can become a maintainable system.
+I care about simple architectures, measurable progress, and honest tradeoffs. I prefer working prototypes over long speculative designs. I want my prototypes to uncover the right lessons and have potential to become maintainable systems.
 
 I am comfortable moving between strategy and implementation: talking to customers or leadership, designing the system shape, writing code, reviewing architecture, debugging performance, and thinking through deployment, security, and operational constraints.
 
