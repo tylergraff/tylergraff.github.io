@@ -6,7 +6,7 @@ title: Home
 # Practical Systems Under Hard Constraints
 {: .site-tagline }
 
-Electrical engineer by education and software architect and engineer by vocation.  
+Electrical engineer by education and software systems architect by vocation.  
 I define, lead, build, and support early-stage fieldable technical systems where AI, software architecture, security, performance, and hard realities intersect.
 
 ## Areas of focus

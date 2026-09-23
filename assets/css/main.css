@@ -270,6 +270,7 @@ p.intro-block {
 }
 
 .site-tagline {
+    font-family: var(--font-mono);
     font-size: 1.32rem;
     font-weight: 700;
     letter-spacing: 0;
